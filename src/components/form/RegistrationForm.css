@@ -1,0 +1,72 @@
+.form {
+  position: relative;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.actionsGroup{
+  display: flex;
+  margin-top: 20px;
+  position: fixed;
+  left: 65%;
+}
+
+.control label {
+  width: 10%;
+  margin-left: 10%;
+}
+
+.control input,
+.control textarea {
+  padding: 0.35rem;
+  border-radius: 4px;
+  background-color: #fafbfb;
+  border: 1px solid var(--header-color);
+  display: block;
+  width: 50%;
+}
+
+.control input:focus,
+.control textarea:focus {
+  background-color: white;
+    outline-color: rgb(0, 87, 128);
+}
+
+.control .errMsg{
+  width: 100%;
+  margin-left: 20%;
+  color: red;
+}
+.control .mandatory{
+  color: red;
+}
+.actions {
+  text-align: right;
+  margin: 10px;
+}
+
+.primaryBtn {
+  color: #fff !important;
+  background-color: var(--header-color) !important;
+  border-color: black !important;
+  font-weight: bold !important;
+}
+
+.primaryBtn:hover {
+  color: black !important;
+  background-color: #578ac1 !important;
+  border-color: black !important;
+  font-weight: bold !important;
+}
+
+.centered{
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 40%;
+}
