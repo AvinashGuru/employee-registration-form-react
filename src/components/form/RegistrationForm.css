@@ -5,6 +5,7 @@
 .control {
   margin-bottom: 0.5rem;
   display: flex;
+  padding: 2px;
 }
 
 .actionsGroup{
@@ -48,19 +49,7 @@
   margin: 10px;
 }
 
-.primaryBtn {
-  color: #fff !important;
-  background-color: var(--header-color) !important;
-  border-color: black !important;
-  font-weight: bold !important;
-}
 
-.primaryBtn:hover {
-  color: black !important;
-  background-color: #578ac1 !important;
-  border-color: black !important;
-  font-weight: bold !important;
-}
 
 .centered{
   margin: 3rem auto;
@@ -69,4 +58,20 @@
   justify-content: left;
   align-items: center;
   margin-left: 40%;
+}
+
+@media only screen and (max-width:900px) {
+
+  .control .errMsg{
+    margin-left: 40%;
+  }
+
+  .control label {
+    width: 30%;
+    margin-right: 3%;
+  }
+
+  .actionsGroup {
+    left: 40%;
+  }
 }

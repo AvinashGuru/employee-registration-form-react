@@ -13,7 +13,6 @@
 
 .header{
   background-color: var(--header-color);
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -43,4 +42,14 @@
   background-color: #578ac1 !important;
   border-color: black !important;
   font-weight: bold !important;
+}
+
+@media only screen and (max-width:900px) {
+  .App {
+    font-size: 1rem !important;
+  }
+  .layout{
+    margin-left: 0;
+    margin-top: 0;
+  }
 }
