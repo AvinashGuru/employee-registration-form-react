@@ -37,7 +37,6 @@
 }
 
 .control .errMsg{
-  width: 100%;
   margin-left: 20%;
   color: red;
 }
@@ -49,8 +48,6 @@
   margin: 10px;
 }
 
-
-
 .centered{
   margin: 3rem auto;
   text-align: center;
@@ -61,10 +58,6 @@
 }
 
 @media only screen and (max-width:900px) {
-
-  .control .errMsg{
-    margin-left: 40%;
-  }
 
   .control label {
     width: 30%;

@@ -77,7 +77,7 @@ const dojReducer = (state, dispatcherAction) => {
   if(dispatcherAction.action === 'USER_INPUT' || dispatcherAction.action === 'VALIDATE'){
     if(!valueFromField){
       isValidVal = false;
-      errMsg = 'Date Of Joining Name is Mandatory';
+      errMsg = 'Date Of Joining is Mandatory';
     }  
   }
   return { value : valueFromField, isValid :isValidVal, message:errMsg};
